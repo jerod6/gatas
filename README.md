@@ -1,11 +1,15 @@
 # GATAS Conspicuity Device
 
 [![Build GaTas](https://github.com/rvt/openace/actions/workflows/ci.yml/badge.svg)](https://github.com/rvt/openace/actions/workflows/ci.yml)
-![version](https://img.shields.io/badge/version-v3.5.1-green)
+![version](https://img.shields.io/badge/version-v3.5.1--device--actions-orange)
 
 [<img src="doc/img/Discord-Logo-Blurple.png" height="45px">](https://discord.gg/J6mXTcWndS)
 
 [📋 Changelog](./CHANGELOG.md) | [🎯 Wiki](https://rvt.github.io/gatas-doc/)
+
+**Device-actions fork:** `v3.5.1-device-actions` adds local BLE configuration
+saving, restart and USB bootloader entry to the v3.5.1 base.
+See [Device actions](doc/device-actions.md) for details and validation status.
 
 The GATAS Conspicuity device is designed for General Aviation pilots flying in areas where multiple
 protocols, such as OGN, Flarm, ADS-L and FANET, are used. It can transmit and receive multiple

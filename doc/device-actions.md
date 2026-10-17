@@ -4,6 +4,12 @@ This extension adds Save configuration, watchdog Restart and USB bootloader entr
 for Companion clients. The paired Watch may request Save and Restart through the
 iPhone; USB boot remains phone/Android only. There is no UF2 upload or OTA update.
 
+This fork identifies itself as **v3.5.1-device-actions** in the GATAS Version row
+and the existing `GATAS_BUILD_GIT_TAG` status field. The version is defined in
+`src/pico/CMakeLists.txt`, so builds from source archives or Docker also retain
+the fork identity. Companion compatibility still uses BLE capabilities, not a
+version-string comparison.
+
 ## Wire contract
 
 Existing COBS framing and its terminating zero are unchanged. Integers are big

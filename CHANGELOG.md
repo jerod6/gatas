@@ -5,31 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-[Unreleased]
+## [v3.5.1-device-actions] - Unreleased fork
 
 ### Added
 
--
+- Local BLE actions for verified configuration saving, watchdog restart and USB bootloader entry.
 
 ### Changed
 
--
-
-### Deprecated
-
--
-
-### Removed
-
--
-
-### Fixed
-
--
-
-### Security
-
--
+- Identify this fork as `v3.5.1-device-actions` in firmware status and the GATAS Version display, including builds without Git metadata.
+- Share checked flash saving between web and BLE; preserve unsaved configuration and BLE aircraft selection across watchdog restarts.
 
 ## [v3.5.1] - 2026-10-15
 
